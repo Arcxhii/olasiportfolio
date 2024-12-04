@@ -246,10 +246,10 @@ span{
     width: 4rem;
     height: 4rem;
     background-color: transparent;
-    border: 0.2rem solid orange;
+    border: .2rem solid rgba(0, 0, 0, 0);
     font-size: 2rem;
     border-radius: 50%;
-    margin: 3rem 1.5rem 3rem 0;
+    margin: 3rem 1.5rem 2rem 0;
     transition: 0.3s ease;
     color: orange;
 }
@@ -260,24 +260,17 @@ span{
     box-shadow: 0  0 25px orange;
 }
 .btn{
-    display: inline-block;
+    display: inline-flex;
     padding: 1rem 2.8rem;
-    background-color: rgba(0, 0, 0, 0.692);
+    background-color: rgba(0, 0, 0, 0);
     border-radius: 4rem;
     font-size: 1.6rem;
     color: orange;
     letter-spacing: 0.3rem;
     font-weight: 600;
-    border: 2px solid orange;
+    border: 2px solid rgba(255, 166, 0, 0.082);
     transition: 0.3s ease;
-    cursor: pointer;
 
-}
-.btn:hover{
-    transform: scale3d(1.03);
-    background-color: orange;
-    color: black;
-    box-shadow: 0 0 25px orange;
 }
 h1{
     text-align: center;
