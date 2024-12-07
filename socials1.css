@@ -259,6 +259,7 @@ span{
     background-color: orange;
     box-shadow: 0  0 25px orange;
 }
+
 .btn{
     display: inline-flex;
     padding: 1rem 2.8rem;
@@ -268,10 +269,37 @@ span{
     color: orange;
     letter-spacing: 0.3rem;
     font-weight: 600;
-    border: 2px solid rgba(255, 166, 0, 0.082);
+    border: 2px solid rgba(255, 166, 0, 0);
     transition: 0.3s ease;
+    margin-left: -20px;
+
 
 }
+.btm{
+    display: inline-flex;
+    padding: 1rem 2.8rem;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: orange;
+    letter-spacing: 0.3rem;
+    font-weight: 600;
+    border: 2px solid rgba(255, 166, 0, 0);
+    transition: 0.3s ease;
+    margin-top: 1px;
+    margin-left: -20px;
+
+}
+.fa-phone{
+    color: orange;
+    font-size: 1.5rem;
+
+}
+.fa-envelope{
+    color: orange;
+    font-size: 1.5rem;
+}
+
 h1{
     text-align: center;
 }
