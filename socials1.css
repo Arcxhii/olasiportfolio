@@ -275,6 +275,10 @@ span{
 
 
 }
+.what{
+    margin-top: -40px;
+}
+
 .btm{
     display: inline-flex;
     padding: 1rem 2.8rem;
